@@ -1,0 +1,10 @@
+# an overview of the available users
+<title>flask intro</title>
+<p>Available users</p>
+<ul>
+    {% for user_id, user_name in users %}
+    <li>
+        {{ user_id }}: {{ user_name }}
+    </li>
+    {% endfor %}
+</ul>
