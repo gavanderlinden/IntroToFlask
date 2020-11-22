@@ -11,7 +11,8 @@ templates = {
 <title>hello page</title>
 <p>Hello! Welcome to this Flask introduction</p>
 <a href="./">return to index</a>
-"""
+""",
+    "anything": "test"
 }
 
 

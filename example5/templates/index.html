@@ -1,0 +1,10 @@
+{# the usual index page #}
+<title>user page</title>
+<p>flask app</p>
+<ul>
+    {% for page_name, page in pages.items() %}
+    <li>
+        <a href="{{ page_name }}">{{ page["description"] }}</a>
+    </li>
+    {% endfor %}
+</ul>
